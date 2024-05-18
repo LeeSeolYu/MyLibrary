@@ -1,0 +1,84 @@
+.PostIts {
+  display: grid;
+  grid-area: PostIts;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
+  grid-template-areas:
+    "PostIt1"
+    "PostIt2"
+    "PostIt3"
+    "PostIt4"
+    "."
+    "LoginLogout"
+    "MyPage";
+  width: 100%;
+  height: 100%;
+  padding: 150% 0;
+  box-sizing: border-box;
+}
+
+.PostIt {
+  display: grid;
+  grid-area: PostIt;
+  width: 200%;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.PostIt1 {
+  grid-area: PostIt1;
+}
+
+.PostIt2 {
+  grid-area: PostIt2;
+}
+
+.PostIt3 {
+  grid-area: PostIt3;
+}
+
+.PostIt4 {
+  grid-area: PostIt4;
+}
+
+.LoginLogout {
+  grid-area: LoginLogout;
+}
+
+.MyPage {
+  grid-area: MyPage;
+}
+
+.Index {
+  width: 70%;
+  height: 70%;
+  border-radius: 0px 9px 9px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Index1 {
+  background-color: var(--seolyu-mylibrary-postit-1);
+}
+
+.Index2 {
+  background-color: var(--seolyu-mylibrary-postit-2);
+}
+
+.Index3 {
+  background-color: var(--seolyu-mylibrary-postit-3);
+}
+
+.Index4 {
+  background-color: var(--seolyu-mylibrary-postit-4);
+}
+
+.Index5 {
+  background-color: var(--seolyu-mylibrary-postit-5);
+}
+
+.Index6 {
+  background-color: var(--seolyu-mylibrary-postit-6);
+}

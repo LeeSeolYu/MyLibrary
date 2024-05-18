@@ -1,0 +1,8 @@
+.SidePaper {
+  grid-area: SidePaper;
+  background-color: var(--seolyu-mylibrary-paper);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: 0;
+}

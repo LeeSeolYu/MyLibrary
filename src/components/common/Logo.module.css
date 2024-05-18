@@ -1,0 +1,7 @@
+.Logo {
+  grid-area: Logo;
+  background: url("../../assets/logo.png") no-repeat center center/contain;
+  width: 450%;
+  height: 300%;
+  z-index: 1;
+}

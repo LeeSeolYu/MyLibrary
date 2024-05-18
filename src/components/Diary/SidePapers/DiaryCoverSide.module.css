@@ -1,0 +1,28 @@
+.DiaryCoverSide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Profile {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProfileImg {
+  border: 1px solid var(--seolyu-mylibrary-gray);
+  border-radius: 5px;
+  width: 80%;
+  height: 0;
+  padding-bottom: 80%;
+}
+
+.ProfileDesc {
+  margin-top: 20px;
+}

@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "insungitCutelivelyjisu";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/insungitCutelivelyjisu.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-size: 24px;
+
+  --seolyu-mylibrary-white: rgb(255, 255, 255);
+  --seolyu-mylibrary-white-opacity: rgba(255, 255, 255, 0.733);
+  --seolyu-mylibrary-gray: rgba(128, 128, 128, 0.507);
+  --seolyu-mylibrary-black: rgb(0, 0, 0);
+  --seolyu-mylibrary-pink: #f44d9e;
+  --seolyu-mylibrary-pink-opacity: #f870a0c7;
+  --seolyu-mylibrary-light-pink: #e86e96;
+  --seolyu-mylibrary-light-pink-opacity: #e86e9741;
+  --seolyu-mylibrary-neon-pink: #ff00ff;
+  --seolyu-mylibrary-yellow: #feb872;
+  --seolyu-mylibrary-green: #0e8726;
+  --seolyu-mylibrary-green-opacity: rgba(140, 219, 65, 0.685);
+  --seolyu-mylibrary-mint: #b0e0e6;
+  --seolyu-mylibrary-skyblue: #87cefa;
+  --seolyu-mylibrary-purple: #af699e;
+  --seolyu-mylibrary-silver: linear-gradient(to right, #cececedc, #dae0dad7);
+  --seolyu-mylibrary-desk: #f8c3d4;
+  --seolyu-mylibrary-desk-check: #f5efefcc;
+  --seolyu-mylibrary-diary: rgba(208, 84, 146, 0.448);
+  --seolyu-mylibrary-paper: rgba(244, 240, 250, 0.848);
+  --seolyu-mylibrary-ring: linear-gradient(to right, #cececedc, #dae0dad7);
+  --seolyu-mylibrary-ring-shadow: rgba(126, 125, 125, 0.712);
+  --seolyu-mylibrary-postit-1: #db0f75c9;
+  --seolyu-mylibrary-postit-2: #33b4c5bd;
+  --seolyu-mylibrary-postit-3: #f55e90d0;
+  --seolyu-mylibrary-postit-4: #e7872cd3;
+  --seolyu-mylibrary-postit-5: #fff700c5;
+  --seolyu-mylibrary-postit-6: #ffc0cbc8;
+}
+
+body {
+  margin: 0;
+  background-color: var(--seolyu-mylibrary-desk);
+  background-image: linear-gradient(
+      var(--seolyu-mylibrary-desk-check) 2px,
+      transparent 2px
+    ),
+    linear-gradient(
+      90deg,
+      var(--seolyu-mylibrary-desk-check) 2px,
+      transparent 2px
+    ),
+    linear-gradient(rgba(252, 235, 205, 0.5) 2px, transparent 2px),
+    linear-gradient(90deg, rgba(252, 235, 205, 0.5) 2px, transparent 2px);
+  background-size: 60px 60px;
+  font-family: "insungitCutelivelyjisu";
+}
+
+input {
+  font-family: "insungitCutelivelyjisu";
+}
+
+button {
+  font-family: "insungitCutelivelyjisu";
+}

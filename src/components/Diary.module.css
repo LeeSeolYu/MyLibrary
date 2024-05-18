@@ -1,0 +1,13 @@
+.Diary {
+  display: grid;
+  grid-area: Diary;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 26fr 1fr;
+  grid-template-rows: 22fr 2fr;
+  grid-template-areas:
+    "InnerDiary PostIts"
+    "InnerDiary PostIts";
+  background: var(--seolyu-mylibrary-diary);
+  border-radius: 15px;
+}

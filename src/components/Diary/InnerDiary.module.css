@@ -1,0 +1,17 @@
+.InnerDiary {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-area: InnerDiary;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 5fr 0.25fr 21fr;
+  grid-template-rows: 0.2fr 1fr 1fr 1fr 0.2fr;
+  grid-template-areas:
+    ". . . ."
+    ". SidePaper Rings Paper"
+    ". SidePaper Rings Paper"
+    ". SidePaper Rings Paper"
+    ". . . .";
+  border-radius: 15px;
+}

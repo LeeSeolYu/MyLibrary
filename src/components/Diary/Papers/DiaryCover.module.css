@@ -1,0 +1,14 @@
+.DiaryCover {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ThreeDSpace {
+  width: 80%;
+  height: 70%;
+  border: 1px solid var(--seolyu-mylibrary-gray);
+  border-radius: 5px;
+}
